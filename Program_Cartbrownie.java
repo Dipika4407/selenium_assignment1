@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Program_Cartbrownie {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		ChromeDriver driver =new ChromeDriver();
 		driver.manage().window().maximize();
